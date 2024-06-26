@@ -1,0 +1,119 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "nuasa_indonesia:rp_100000"
+    },
+    "title": {
+      "translate": "advancements.aku_kaya.title"
+    },
+    "description": {
+      "translate": "advancements.aku_kaya.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aku_kaya_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nuasa_indonesia:rp_100000"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "aku_kaya_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nuasa_indonesia:rp_50000"
+            ],
+            "count": {
+              "min": 20,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "aku_kaya_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nuasa_indonesia:rp_20000"
+            ],
+            "count": {
+              "min": 5,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "aku_kaya_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nuasa_indonesia:rp_10000"
+            ],
+            "count": {
+              "min": 10,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "aku_kaya_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nuasa_indonesia:rp_5000"
+            ],
+            "count": {
+              "min": 20,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "aku_kaya_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nuasa_indonesia:rp_2000"
+            ],
+            "count": {
+              "min": 50,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

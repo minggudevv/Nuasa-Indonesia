@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "nuasa_indonesia:klepon"
+    },
+    "title": {
+      "translate": "advancements.suka_makanan_tradisional.title"
+    },
+    "description": {
+      "translate": "advancements.suka_makanan_tradisional.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "suka_makanan_tradisional_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "nuasa_indonesia:klepon"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  }
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="CC-BY-NC-ND"
+
+[[mods]]
+modId="nuasa_indonesia"
+version="1.0.0"
+displayName="Nuasa Indonesia"
+displayURL="https://rzztec.com"
+logoFile="logo.png"
+credits="Copyright Minggudev 2024-2024"
+authors="minggudev, MCreator"
+description="Mengubah Minecraft anda menjadi seperti di indonesia"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.nuasa_indonesia]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

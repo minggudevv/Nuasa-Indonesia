@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:water_bucket"
+  },
+  "base": {
+    "item": "nuasa_indonesia:indomie"
+  },
+  "addition": {
+    "item": "nuasa_indonesia:piring_hitam"
+  },
+  "result": {
+    "item": "nuasa_indonesia:indomiematang"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "mod_elements": [
+    {
+      "name": "Indomie",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indomie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minggudev/nuasaindonesia/item/IndomieItem.java",
+          "src/main/resources/assets/nuasa_indonesia/models/item/indomie.json"
+        ]
+      }
+    },
+    {
+      "name": "Indomiematang",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indomiematang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/indomiematang.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/IndomiematangItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PiringHitam",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piring_hitam",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/piring_hitam.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/PiringHitamItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Klepon",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "klepon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/klepon.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/KleponItem.java"
+        ]
+      },
+      "path": "~/Makanan"
+    },
+    {
+      "name": "MangkokKayu",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangkok_kayu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/mangkok_kayu.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/MangkokKayuItem.java"
+        ]
+      },
+      "path": "~/Makanan"
+    },
+    {
+      "name": "ResepIndomie",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resep_indomie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nuasa_indonesia/recipes/resep_indomie.json"
+        ]
+      },
+      "path": "~/Makanan/Recipe"
+    },
+    {
+      "name": "RP1000",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_1000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP1000Item.java",
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_1000.json"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "RP2000",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_2000",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_2000.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP2000Item.java"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "RP5000",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_5000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP5000Item.java",
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_5000.json"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "RP10000",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_10000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP10000Item.java",
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_10000.json"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "RP20000",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_20000",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_20000.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP20000Item.java"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "RP50000",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_50000",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_50000.json",
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP50000Item.java"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "RP100000",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_100000",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minggudev/nuasaindonesia/item/RP100000Item.java",
+          "src/main/resources/assets/nuasa_indonesia/models/item/rp_100000.json"
+        ]
+      },
+      "path": "~/Uang"
+    },
+    {
+      "name": "AkuKaya",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aku_kaya",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nuasa_indonesia/advancements/aku_kaya.json"
+        ]
+      },
+      "path": "~/Achivment"
+    },
+    {
+      "name": "SukaMakananTradisional",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suka_makanan_tradisional",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nuasa_indonesia/advancements/suka_makanan_tradisional.json"
+        ]
+      },
+      "path": "~/Achivment"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.nuasa_indonesia.rp_20000": "RP 1 0 0 0",
+      "item.nuasa_indonesia.piring_hitam": "Piring Hitam",
+      "advancements.suka_makanan_tradisional.title": "Suka Makanan Tradisional",
+      "advancements.aku_kaya.descr": "Kamu Telah Mendapatkan Uang 100K",
+      "item.nuasa_indonesia.rp_2000": "RP 2k",
+      "item.nuasa_indonesia.rp_50000": "RP 1 0 0 0",
+      "item.nuasa_indonesia.rp_5000": "RP 3k",
+      "item.nuasa_indonesia.rp_1000": "RP 1k",
+      "item.nuasa_indonesia.rp_10000": "RP 1 0 0 0",
+      "item.nuasa_indonesia.indomie": "Indomie",
+      "item.nuasa_indonesia.Black_plate": "Black plate",
+      "item.nuasa_indonesia.rp_100000": "RP 1 0 0 0",
+      "item.nuasa_indonesia.indomiecooked": "Indomie Cooked",
+      "advancements.suka_makanan_tradisional.descr": "Kamu suka mengkonsumsi Makanan tradisioal",
+      "item.nuasa_indonesia.mangkok_kayu": "Mangkok Kayu",
+      "advancements.aku_kaya.title": "Aku Kaya",
+      "item.nuasa_indonesia.klepon": "Klepon",
+      "item.nuasa_indonesia.indomiematang": "Indomiematang"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Makanan",
+        "children": [
+          {
+            "name": "Recipe",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Alat Dapur",
+        "children": []
+      },
+      {
+        "name": "Uang",
+        "children": []
+      },
+      {
+        "name": "Achivment",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nuasa_indonesia",
+    "modName": "Nuasa Indonesia",
+    "version": "1.0.0",
+    "description": "Mengubah Minecraft anda menjadi seperti di indonesia",
+    "author": "minggudev, MCreator",
+    "websiteURL": "https://rzztec.com",
+    "license": "CC-BY-NC-ND",
+    "serverSideOnly": false,
+    "modPicture": "nuasa",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Copyright Minggudev 2024-2024",
+    "modElementsPackage": "net.minggudev.nuasaindonesia"
+  },
+  "mcreatorVersion": 202400118518
+}

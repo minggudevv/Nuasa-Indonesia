@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "nuasa_indonesia:item/uang_2k"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 60,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:RP2000"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:RP1000"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Indomie"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}
